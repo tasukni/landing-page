@@ -1,71 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./stile.css">
-    <title>Document</title>
+    <meta name="description" content="Descrição do site">
+    <link rel="stylesheet" href="./style.css">
+    <title>Título da Página</title>
 </head>
 
 <body>
-    <div class="Navbar">
-        <img class="logo" src="./assets/logo.jpg" alt="" />
+    <header class="navbar">
+        <img class="logo" src="./assets/logo.jpg" alt="Logo" />
+        <nav class="links">
+            <a class="link" href="#sobre-nos">Sobre Nós</a>
+            <a class="link" href="#projetos">Projetos</a>
+            <a class="link" href="#contato">Contato</a>
+        </nav>
+    </header>
 
-        <div class="links">
-            <a class="link" href="">Sobre Nós</a>
-            <a class="link" href="">Projetos</a>
-            <a class="link" href="">Contato</a>
-        </div>
-    </div>
-
-    <div class="header">
+    <section class="header">
         <div class="conteudo-header">
-            <h1>Título</h1> 
-            <p>Descrição</p>
-            <button>Clique aqui</button>
+            <h1>Título Principal</h1> 
+            <p>Descrição principal do site que capta a atenção do usuário.</p>
+            <button class="cta-button">Clique Aqui</button>
         </div>
-        <img class='imagem-header' src="./assets/dog1.jpg" alt="image">
-    </div>
+        <img class="imagem-header" src="./assets/dog1.jpg" alt="Imagem de Destaque">
+    </section>
 
-    <div class="Seção_1">
-        <h1>Título</h1>
+    <section id="projetos" class="secao-1">
+        <h1>Título dos Projetos</h1>
         <div class="conteudo-card">
-
             <div class="card">
-                <img class='padrao-img' src="./garfield.jfif" alt="">
-                <h1>Título</h1>
-                <p>Descrição</p>
+                <img class="padrao-img" src="./assets/dog1.jpg" alt="Imagem do Projeto 1">
+                <h2>Título do Projeto 1</h2>
+                <p>Descrição breve do projeto 1.</p>
             </div>
-    
             <div class="card">
-                <img class='padrao-img' src="./assets/dog2.jfif" alt="">
-                <h1>Título</h1>
-                <p>Descrição</p>
+                <img class="padrao-img" src="./assets/dog2.jfif" alt="Imagem do Projeto 2">
+                <h2>Título do Projeto 2</h2>
+                <p>Descrição breve do projeto 2.</p>
             </div>
-    
             <div class="card">
-                <img class='padrao-img' src="./assets/gato-3.jpg" alt="">
-                <h1>Título</h1>
-                <p>Descrição</p>
+                <img class="padrao-img" src="./assets/gato-3.jpg" alt="Imagem do Projeto 3">
+                <h2>Título do Projeto 3</h2>
+                <p>Descrição breve do projeto 3.</p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="seção_2">
-        <h1>Título</h1>
-        <p>Descrição</p>
-    </div>
+    <section id="sobre-nos" class="secao-2">
+        <h1>Sobre Nós</h1>
+        <p>Descrição sobre a empresa ou equipe.</p>
+    </section>
 
-    <div class="footer">
-        <img class='padrao-img' src="">
-        <h1>Desenvolvido por...</h1>
-        <a href="Sobre nós">Sobre nós</a>
-        <a href="Projetos">Projetos</a>
-        <a href="Contato">Contato</a>
-    </div>
-
-    </div>
+    <footer class="footer">
+        <img class="padrao-img" src="./assets/logo.jpg" alt="Logo">
+        <h2>Desenvolvido por Sua Empresa</h2>
+        <nav class="footer-links">
+            <a class="link" href="#sobre-nos">Sobre Nós</a>
+            <a class="link" href="#projetos">Projetos</a>
+            <a class="link" href="#contato">Contato</a>
+        </nav>
+    </footer>
 </body>
 
 </html>

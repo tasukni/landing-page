@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.links, .footer-links {
+    display: flex;
+    gap: 15px;
+}
+
+.link {
+    text-decoration: none;
+    color: blanchedalmond;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(70, 53, 32);
+    color: white;
+    padding: 20px;
+}
+
+.conteudo-header {
+    width: 50%;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.cta-button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #e64a19;
+}
+
+.imagem-header {
+    width: 50%;
+    border-radius: 8px;
+}
+
+.secao-1, .secao-2 {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.secao-1 {
+    background-color: black;
+}
+
+.conteudo-card {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: burlywood;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.padrao-img {
+    width: 25%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: burlywood;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer img {
+    margin-bottom: 10px;
+}
+
+.footer h2 {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .conteudo-header, .imagem-header {
+        width: 100%;
+    }
+
+    .conteudo-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
